@@ -50,7 +50,7 @@ pub fn main() !void {
 
     while (true) {
         const client = try server.accept();
-        std.debug.print("New connection from {}\n", .{client.address});
+        std.debug.print("New connection from {any}\n", .{client.address});
 
         const thread = try std.Thread.spawn(.{}, handleConnection, .{ allocator, client.stream, target_addr });
         thread.detach();
@@ -71,7 +71,7 @@ fn handleConnection(allocator: std.mem.Allocator, client_stream: net.Stream, tar
     defer client_stream.close();
 
     const target_stream = net.tcpConnectToAddress(target_addr) catch |err| {
-        std.debug.print("Failed to connect to target: {}\n", .{err});
+        std.debug.print("Failed to connect to target: {any}\n", .{err});
         return;
     };
     defer target_stream.close();
