@@ -4,7 +4,7 @@
 **Replace NGINX with 1 config line.**
 
 [![Built with Zig](https://img.shields.io/badge/Built_with-Zig-F7A41D?style=for-the-badge&logo=zig)](https://ziglang.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue?style=for-the-badge)](https://opensource.org/licenses/BSD-3-Clause)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 
 A **lightning-fast**, single-binary reverse proxy built in Zig for DevOps and self-hosters who are tired of bloated NGINX configs.
