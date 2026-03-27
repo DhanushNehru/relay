@@ -13,7 +13,7 @@ First off, thank you for considering contributing to Relay! It's people like you
 2. Fork the repository on GitHub.
 3. Clone your fork locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/relay.git
+   git clone https://github.com/DhanushNehru/relay.git
    cd relay
    ```
 4. Build the project:
