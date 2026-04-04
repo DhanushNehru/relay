@@ -47,6 +47,12 @@ zig build
 ./zig-out/bin/relay --listen 8080 --to localhost:3000
 ```
 
+Or run directly with build arguments:
+
+```bash
+zig build run -- --listen 8080 --to localhost:3000
+```
+
 ---
 
 ## 🤝 Contributing (Let's Go Viral!)
@@ -61,5 +67,22 @@ Check out our [Contributing Guidelines](CONTRIBUTING.md) to get started! We have
 
 ---
 
+## 🗺️ Roadmap
+
+Here's what's coming next for Relay:
+
+- [x] Core TCP reverse proxy
+- [x] CLI argument parsing (`--listen`, `--to`)
+- [ ] Auto-SSL via Let's Encrypt (ACME)
+- [ ] Docker container autodiscovery
+- [ ] Round-robin load balancing
+- [ ] Prometheus metrics endpoint (`/metrics`)
+- [ ] Config file support (`relay.json`)
+- [ ] Pre-built binaries for Linux, macOS, Windows
+
+Want to help? Pick an item and open a PR!
+
+---
+
 ## 📝 License
-MIT License - Copy it, fork it, sell it, we don't care. Just make the internet faster.
+BSD 3-Clause License — see [LICENSE](LICENSE) for details.

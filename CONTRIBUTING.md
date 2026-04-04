@@ -8,12 +8,13 @@ First off, thank you for considering contributing to Relay! It's people like you
 3. **Community**: We are actively building a fast-paced, welcoming community.
 
 ## 🛠️ Getting Started
-1. Install [Zig](https://ziglang.org/download/) (v0.12 or newer).
+1. Install [Zig](https://ziglang.org/download/) (v0.13 or newer).
    * Mac: `brew install zig`
+   * Linux: Download from [ziglang.org/download](https://ziglang.org/download/) or use your package manager
 2. Fork the repository on GitHub.
 3. Clone your fork locally:
    ```bash
-   git clone https://github.com/DhanushNehru/relay.git
+   git clone https://github.com/YOUR_USERNAME/relay.git
    cd relay
    ```
 4. Build the project:
