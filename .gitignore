@@ -1,3 +1,20 @@
+# Zig build artifacts
 .zig-cache/
 zig-out/
+zig-cache/
 *.o
+*.d
+*.bin
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Release binaries
+relay
+relay.exe
